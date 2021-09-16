@@ -128,3 +128,24 @@
     color: #3882F6;
 }
 
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 250px;
+    gap: 10px;
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source{
+    color: #1F2937;
+    font-size: 24px;
+    text-align: right;
+}
