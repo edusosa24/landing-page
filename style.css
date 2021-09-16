@@ -149,3 +149,35 @@
     font-size: 24px;
     text-align: right;
 }
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 100px;
+}
+
+.box{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    border-radius: 6px;
+    padding: 40px 100px;          
+}
+
+.box .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.box .signbutton{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.text h2, .text p{
+    color: #E5E7EB;
+}
