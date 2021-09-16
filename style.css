@@ -174,10 +174,21 @@
 
 .box .signbutton{
     border-style: solid;
-    border-color: white;
+    border-color: #E5E7EB;
     border-width: 3px;
 }
 
 .text h2, .text p{
     color: #E5E7EB;
+}
+
+.footer{
+    padding: 35px;
+}
+
+.footer h3{
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 90%;
+    font-weight: lighter;
 }
