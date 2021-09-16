@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.header, .introduction, .footer{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.navbar{
+    font-size: 18px;
+    display:flex;
+    list-style-type: none;
+    gap: 18px;
+    color: #E5E7EB;
+}
+
+h1 .introduction{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: bolder;
+}
+
+.header{
+
+}
