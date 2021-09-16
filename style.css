@@ -1,4 +1,5 @@
 *{
+    font-family: "Roboto", "Arial", sans-serif ;
     margin: 0;
 }
 
@@ -18,20 +19,65 @@
     color:#F9FAF8;
 }
 
-.navbar{
-    font-size: 18px;
-    display:flex;
+.navbar{ 
+    display: flex;
     list-style-type: none;
     gap: 18px;
-    color: #E5E7EB;
 }
 
-h1 .introduction{
+.navbar a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.body{
+    display: flex;
+    direction: column;
+}
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    gap: 40px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.maintext{
     font-size: 48px;
     color:#F9FAF8;
     font-weight: bolder;
 }
 
-.header{
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+.mainimage{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.signbutton{
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6;
+    border: none;
+}
+
+.signbutton:active{
+    transform: translateY(2px);
 }
